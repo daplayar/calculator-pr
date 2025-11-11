@@ -5,7 +5,7 @@ def calculate(a, op, b):
         return a * b
     elif op == '/':
         if b != 0:
-            return a / b
+            return a // b
         else:
             raise Exception('division by 0')
     return None
